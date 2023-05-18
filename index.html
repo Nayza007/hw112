@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Shopping cart</title>
+  </head>
+  <body>
+    <nav class="container_nav">
+      <div class="box_navleft">
+        <p>
+          <i
+            class="fa-sharp fa-solid fa-check-double"
+            style="color: #1eff00"
+          ></i>
+        </p>
+        <a href="#">Job Passcard</a>
+      </div>
+      <div class="box_navcenter">
+        <a href="#">About Us</a>
+        <a href="#">Passcard</a>
+        <a href="#">Profile</a>
+      </div>
+      <div class="box_navright">
+        <p>
+          <i class="fa-solid fa-circle-xmark"></i>
+        </p>
+        <p>
+          <i class="fa-solid fa-cart-shopping" style="color: #000000"></i>
+        </p>
+        <a href="#">Login |</a>
+        <a href="#">Sign up</a>
+      </div>
+    </nav>
+    <br />
+    <h1 class="header">My Cart</h1>
+    <br />
+    <main class="container_main">
+      <div class="box_left">
+        <div class="box_top">
+          <div class="img">
+            <i class="fa-solid fa-trash-can"></i>
+          </div>
+          <div class="item_img">
+            <img src="https://picsum.photos/id/25/200" alt="img1" />
+          </div>
+          <div class="item_text">
+            <div class="text_h4">
+              <h4>Google Docs</h4>
+            </div>
+            <div class="toptext_form">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-sharp fa-regular fa-star"></i>
+              <i class="fa-sharp fa-regular fa-star"></i>
+              <select>
+                <option value="">LV 1-3</option>
+              </select>
+            </div>
+            <div class="text_h5">
+              <h5>THB 150</h5>
+            </div>
+          </div>
+        </div>
+        <div class="box_bottom">
+          <div class="img">
+            <i class="fa-solid fa-trash-can"></i>
+          </div>
+          <div class="item_img">
+            <img src="https://picsum.photos/id/40/200" alt="img2" />
+          </div>
+          <div class="item_text">
+            <div class="text_h4">
+              <h4>Google Docs</h4>
+            </div>
+            <div class="toptext_form">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-sharp fa-regular fa-star"></i>
+              <i class="fa-sharp fa-regular fa-star"></i>
+              <select>
+                <option value="">LV 1-3</option>
+              </select>
+            </div>
+            <div class="text_h5">
+              <h5>THB 150</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box_right">
+        <h2>Order info</h2>
+        <div class="right_title">
+          <h4>Subtotal</h4>
+          <h4>THB 300</h4>
+        </div>
+        <div class="right_input">
+          <i class="fa-regular fa-keyboard"></i>
+          <div class="input_promotion">
+            <input type="text" placeholder="Promotion code" />
+          </div>
+          <button class="input_button">APPLY</button>
+        </div>
+        <div class="right_text">
+          <h4>Total payment</h4>
+          <h1>THB 300</h1>
+        </div>
+        <button class="button_log">LOGIN TO CHECKOUT</button>
+      </div>
+    </main>
+  </body>
+</html>
